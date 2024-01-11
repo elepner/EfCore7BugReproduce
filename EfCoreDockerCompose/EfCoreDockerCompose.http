@@ -1,0 +1,6 @@
+@EfCoreDockerCompose_HostAddress = http://localhost:5032
+
+GET {{EfCoreDockerCompose_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
